@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Mon Projet Pro : Par Marwa JAKIM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    * {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: #121212;
+      color: #e0e0e0;
+      font-family: 'Poppins', sans-serif;
+    }
+    header, nav, main section {
+      background: #1f1f1f;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+    .floating-img {
+      animation: float 4s ease-in-out infinite;
+      border: 4px solid #0ea5e9; /* bleu électrique */
+      box-shadow: 0 0 15px #0ea5e9;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+    nav a {
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #0ea5e9;
+      color: #121212;
+      box-shadow: 0 0 10px #0ea5e9;
+    }
+    input[type="submit"] {
+      background: #000;
+      color: #0ea5e9;
+      border: 2px solid #0ea5e9;
+      font-weight: 700;
+      padding: 1rem 0;
+      border-radius: 1rem;
+      cursor: pointer;
+      box-shadow: 0 0 15px #0ea5e9;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      width: 100%;
+    }
+    input[type="submit"]:hover {
+      background-color: #0ea5e9;
+      color: #121212;
+      box-shadow: 0 0 25px #0ea5e9;
+    }
+    table thead tr {
+      background-color: #0ea5e9;
+      color: #121212;
+    }
+    table tbody tr:nth-child(even) {
+      background-color: #222;
+    }
+    table tbody tr:hover {
+      background-color: #0ea5e9;
+      color: #121212;
+      transition: background-color 0.3s ease;
+    }
+    /* Scrollbar sombre */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1f1f1f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #0ea5e9;
+      border-radius: 20px;
+      border: 3px solid #1f1f1f;
+    }
+  </style>
+</head>
+<body class="font-poppins">
+
+  <header class="text-center py-16 px-8 mx-6 my-8">
+    <h1 class="text-5xl font-bold font-orbitron mb-6" style="color:#0ea5e9;">Mon Portfolio Professionnel</h1>
+    <p class="max-w-4xl mx-auto text-lg leading-relaxed" style="color:#cbd5e1;">
+      Je m'appelle <span style="font-weight: 700; text-decoration: underline; color:orangered;">Marwa JAKIM</span><br />
+      À travers ce portfolio, je souhaite partager non seulement mes compétences et réalisations, mais aussi ma vision d’un travail porteur de sens et d’impact positif.
+    </p>
+  </header>
+
+  <nav class="sticky top-0 z-50 flex justify-center gap-10 py-6 mx-6 mb-12 border-b-4 border-blue-600 px-8">
+    <a href="#presentation" class="px-8 py-3 rounded-xl font-semibold text-gray-300 hover:text-black hover:bg-[#0ea5e9] shadow-lg transition">Présentation</a>
+    <a href="#parcours" class="px-8 py-3 rounded-xl font-semibold text-gray-300 hover:text-black hover:bg-[#0ea5e9] shadow-lg transition">Parcours</a>
+    <a href="#contact" class="px-8 py-3 rounded-xl font-semibold text-gray-300 hover:text-black hover:bg-[#0ea5e9] shadow-lg transition">Contact</a>
+  </nav>
+
+  <main class="px-6 md:px-24 lg:px-40 space-y-24">
+
+    <section id="presentation" class="bg-gray-800 p-8 rounded-xl shadow-lg">
+  <h2 class="text-2xl font-bold mb-4" style="color:lightblue"> Présentation</h2>
+  <img src="images/photo.jpg" alt="Ma photo" class="floating-img w-40 h-40 object-cover rounded-full border-4 border-gray-700 mb-6 mx-auto">
+  <p class="mb-4">
+    Ce site n’est pas seulement un simple espace digital, mais le reflet vivant de mon engagement intérieur, un lieu où convergent mes aspirations les plus profondes et mes rêves professionnels.
+  </p>
+  <p class="mb-4">
+    À travers ce portail, je souhaite partager bien plus que mon parcours ou mes compétences techniques : je désire offrir une vision, une philosophie de l’action consciente, où chaque initiative se nourrit de l’ambition sincère de contribuer à un monde meilleur. Je crois fermement que l’innovation véritable ne se limite pas à la création de nouvelles solutions, mais qu’elle réside surtout dans notre capacité à penser autrement, à questionner nos certitudes, et à imaginer l’avenir avec courage et humilité.
+  </p>
+  <p class="mb-4">
+    Mon engagement se nourrit de cette conviction que le changement commence par la rencontre entre la créativité humaine et la responsabilité collective. C’est dans cette alchimie subtile que naissent les projets capables d’éveiller les consciences, de transformer les sociétés et d’insuffler un souffle nouveau à notre époque.
+  </p>
+  <p>
+    En parcourant ce site, je vous invite à découvrir non seulement mon expertise, mais surtout la passion qui m’anime, la rigueur qui guide mes choix, et cette volonté profonde de tisser des liens authentiques entre idées, actions et valeurs.
+  </p>
+</section>
+
+  <section id="parcours" class="bg-gray-800 p-8 rounded-xl shadow-lg">
+  <h2 class="text-4xl font-bold mb-12" style="color:lightblue;"> Mon Parcours</h2>
+
+  <!-- Formation -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-5" style="color:#38bdf8;"> Formation</h3>
+    <ol class="list-decimal ml-10 space-y-3 text-gray-300 text-xl">
+      <li>Baccalauréat Scientifique, spécialité Physique – Major de promo (2023-2024)</li>
+      <li>Étudiante à l’École Nationale de Commerce et de Gestion (ENCG), Casablanca (2024-2025)</li>
+      <li>Diplôme en Thérapie Cognitivo-Comportementale (TCC)</li>
+      <li>Diplôme en Sociologie</li>
+    </ol>
+  </div>
+
+  <!-- Compétences -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-5" style="color:#38bdf8;">🛠 Compétences</h3>
+    <ul class="list-disc ml-10 space-y-3 text-gray-300 text-xl">
+      <li>Prise de parole en public & rédaction créative</li>
+      <li>Leadership associatif & coordination événementielle</li>
+      <li>Analyse critique & esprit de synthèse</li>
+      <li>Langues : Arabe (courant), Anglais (C2), Français (C1)</li>
+      <li>Technologie : IA Générative, Design Thinking, Web (HTML, CSS, JS)</li>
+    </ul>
+  </div>
+
+  <!-- Expériences professionnelles -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-8" style="color:#38bdf8;"> Expériences professionnelles</h3>
+    <div class="overflow-x-auto rounded-lg border border-[#0ea5e9]">
+      <table class="min-w-full table-auto border-collapse text-gray-300">
+        <thead>
+          <tr>
+            <th class="border border-[#0ea5e9] px-8 py-4 bg-[#0ea5e9] text-black">Année</th>
+            <th class="border border-[#0ea5e9] px-8 py-4 bg-[#0ea5e9] text-black">Poste</th>
+            <th class="border border-[#0ea5e9] px-8 py-4 bg-[#0ea5e9] text-black">Entreprise / Projet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="even:bg-[#222] hover:bg-[#0ea5e9] hover:text-black transition">
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">2024</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Création site galerie d’art</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Artiste serbe <a style=" font-size: 80 px; color: yellowgreen;" href="https://silexsteinjk.github.io/Moonart/MoonartMain/"> Cliquez Moi </a></td>
+          </tr>
+          <tr class="odd:bg-[#1a1a1a] hover:bg-[#0ea5e9] hover:text-black transition">
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">2023</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Comparaison de performances d’enseignants</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Projet académique</td>
+          </tr>
+          <tr class="even:bg-[#222] hover:bg-[#0ea5e9] hover:text-black transition">
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">2022</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Collaboratrice accréditée</td>
+            <td class="border border-[#0ea5e9] px-8 py-4 text-center">Major League Hacking</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Coordination événementielle -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-5" style="color:#38bdf8;">Coordination événementielle</h3>
+    <ul class="list-disc ml-10 space-y-3 text-gray-300 text-xl">
+      <li>Présidente de la Commission Communication Externe du FIAP</li>
+      <li>Secrétaire générale de la région Casablanca-Chaouia & représentante Bahreïn-Rif</li>
+      <li>Responsable Sponsoring – ANCG (Association Nationale du Cheval et de la Généalogie)</li>
+      <li>Organisatrice TEDx ENCGC – 1er TEDx à Casablanca, 2ᵉ au Maroc</li>
+      <li>Responsable Communication – Journée Internationale de la Femme</li>
+      <li>Organisatrice & adjointe régie – Forum des Jeunes (INDH)</li>
+    </ul>
+  </div>
+
+  <!-- Activités intellectuelles -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-5" style="color:#38bdf8;">Activités intellectuelles</h3>
+    <ul class="list-disc ml-10 space-y-3 text-gray-300 text-xl">
+      <li>Cheffe section anglophone & formatrice – Club Agora (débats nationaux)</li>
+      <li>Débatteuse – demi-finaliste concours d’éloquence ISCAE Casablanca</li>
+      <li>Conférencière ENCGC – éblouissement intellectuel, créativité, pédagogie</li>
+      <li>Autrice jeunesse – vulgarisation musique, peinture classique, philosophie</li>
+      <li>Animatrice d’une exposition scientifique sur l’histoire de la physique</li>
+      <li>Cheffe de projet – Marketing automobile au Maroc (PFC)</li>
+    </ul>
+  </div>
+
+  <!-- Certificats -->
+  <div class="mb-10">
+    <h3 class="text-3xl font-semibold mb-5" style="color:#38bdf8;">Certificats</h3>
+    <ul class="list-disc ml-10 space-y-3 text-gray-300 text-xl">
+      <li>LinkedIn/Microsoft : Career Essentials in Generative AI & Project Management</li>
+      <li>The Open University : Decision Trees, Money & Business, Speech-making, Psychology</li>
+    </ul>
+  </div>
+
+  <!-- CV -->
+  <div>
+    <h3 class="text-3xl font-semibold mb-6" style="color:#38bdf8;"> Mon CV Visuel</h3>
+    <img src="images/cv.jpg" alt="Mon CV" class="floating-img w-full max-w-3xl rounded-2xl shadow-lg border-4 border-[#0ea5e9] mx-auto" />
+  </div>
+</section>
+
+
+    <section id="contact" class="bg-gray-800 p-8 rounded-xl shadow-lg">
+      <h2 class="text-4xl font-bold mb-8" style="color:lightblue;">Me contacter</h2>
+      <form class="space-y-8">
+        <input
+          type="text"
+          name="nom"
+          placeholder="Votre nom"
+          class="w-full p-5 bg-[#1f1f1f] border border-[#0ea5e9] rounded-2xl text-gray-300 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-[#0ea5e9] transition"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre email"
+          class="w-full p-5 bg-[#1f1f1f] border border-[#0ea5e9] rounded-2xl text-gray-300 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-[#0ea5e9] transition"
+          required
+        />
+        <textarea
+          name="message"
+          rows="6"
+          placeholder="Votre message..."
+          class="w-full p-5 bg-[#1f1f1f] border border-[#0ea5e9] rounded-2xl text-gray-300 placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-[#0ea5e9] transition"
+          required
+        ></textarea>
+        <input
+          type="submit"
+          value="Envoyer "
+        />
+      </form>
+    </section>
+
+  </main>
+</body>
+</html>
