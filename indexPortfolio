@@ -213,7 +213,7 @@
   <!-- CV -->
   <div>
     <h3 class="text-3xl font-semibold mb-6" style="color:#38bdf8;"> Mon CV Visuel</h3>
-    <img src="images/cv.jpg" alt="Mon CV" class="floating-img w-full max-w-3xl rounded-2xl shadow-lg border-4 border-[#0ea5e9] mx-auto" />
+    <img href=" https://github.com/SilexsteinJK/Portfolio/blob/main/Marwa%20JJAKIM%20CV%20.jpg" alt="Mon CV" class="floating-img w-full max-w-3xl rounded-2xl shadow-lg border-4 border-[#0ea5e9] mx-auto" />
   </div>
 </section>
 
