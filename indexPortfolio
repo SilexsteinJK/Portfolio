@@ -101,7 +101,7 @@
 
     <section id="presentation" class="bg-gray-800 p-8 rounded-xl shadow-lg">
   <h2 class="text-2xl font-bold mb-4" style="color:lightblue"> Présentation</h2>
-  <img src="images/photo.jpg" alt="Ma photo" class="floating-img w-40 h-40 object-cover rounded-full border-4 border-gray-700 mb-6 mx-auto">
+  <img src="https://github.com/SilexsteinJK/Portfolio/blob/main/WhatsApp%20Image%202025-06-13%20at%2010.19.02%20PM.jpeg" alt="Ma photo" class="floating-img w-40 h-40 object-cover rounded-full border-4 border-gray-700 mb-6 mx-auto">
   <p class="mb-4">
     Ce site n’est pas seulement un simple espace digital, mais le reflet vivant de mon engagement intérieur, un lieu où convergent mes aspirations les plus profondes et mes rêves professionnels.
   </p>
